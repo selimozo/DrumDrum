@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tıklama Sayacı</title>
+</head>
+<body>
+
+<button id="clickButton">Tıkla</button>
+<p id="clickCount">0 kez tıklandı.</p>
+
+<script>
+    // Butona tıklama sayısını tutacak değişkeni tanımla
+    let clickCount = 0;
+
+    // Buton elementini seç
+    const button = document.getElementById('clickButton');
+
+    // Butona tıklandığında çalışacak fonksiyonu tanımla
+    function handleClick() {
+        // Tıklama sayısını artır
+        clickCount++;
+
+        // Tıklama sayısını gösteren metni güncelle
+        document.getElementById('clickCount').textContent = clickCount + " kez tıklandı.";
+    }
+
+    // Butona tıklandığında handleClick fonksiyonunu çağır
+   let asdas = button.addEventListener('click', handleClick);
+    console.log(asdas);
+</script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tıklama Sayacı</title>
+</head>
+<body>
+
+<button id="clickButton">Tıkla</button>
+<p id="clickCount">0 kez tıklandı.</p>
+
+<script>
+    // Butona tıklama sayısını tutacak değişkeni tanımla
+    let clickCount = 0;
+
+    // Buton elementini seç
+    const button = document.getElementById('clickButton');
+
+    // Butona tıklandığında çalışacak fonksiyonu tanımla
+    function handleClick() {
+        // Tıklama sayısını artır
+        clickCount++;
+        // Tıklama sayısını konsola yazdır
+        console.log("Tıklama Sayısı: ", clickCount);
+
+        // Tıklama sayısını gösteren metni güncelle
+        document.getElementById('clickCount').textContent = clickCount + " kez tıklandı.";
+    }
+
+    // Butona tıklandığında handleClick fonksiyonunu çağır
+    button.addEventListener('click', handleClick);
+    
+</script>
+
+</body>
+</html>
+

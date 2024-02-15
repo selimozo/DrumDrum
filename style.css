@@ -50,3 +50,6 @@ html {
     color: #ffc600;
   }
   
+  #metronome:hover {
+    cursor: pointer
+  }
